@@ -11,16 +11,21 @@ double sum(double a, double b)
 
 int main()
 {
-    double a;
-    double b;   
+    float a;
+    float b;   
 
     do    
     {        
-        std::cout << "Enter Integer A: ";
-        std::cin >> a;
-
-        std::cout << "Enter Ingeter B: ";
-        std::cin >> b;
+        if (std::cin)
+        {
+            std::cout << "Enter Number A: ";
+            std::cin >> a;           
+        }
+        if (std::cin)
+        {
+            std::cout << "Enter Number B: ";
+            std::cin >> b;
+        }
 
         if (!std::cin)
         {
@@ -35,4 +40,7 @@ int main()
     }while (std::cin.bad() == false);
     
     std::cout << "The sum of " << a << " and " << b << " is: " <<  sum(a, b) << std::endl;
+
+    return 0;
 }
+
