@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-double sum(double a, double b) 
+double sum(float a, float b) 
 {
     return a + b;
 }
