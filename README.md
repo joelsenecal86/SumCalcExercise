@@ -1,0 +1,2 @@
+# SumCalcExercise
+ Simple Sum Function

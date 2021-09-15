@@ -1,0 +1,2 @@
+C:\Users\joel_\source\repos\SumCalcExercise\Debug\SumCalcExercise.exe
+C:\Users\joel_\source\repos\SumCalcExercise\Debug\SumCalcExercise.pdb
